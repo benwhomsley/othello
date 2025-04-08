@@ -3,7 +3,7 @@ import Script from "next/script";
 export default function Home() {
   return (
     <div>
-      <Script id="">
+      <Script defer id="">
         var game = new Othello();
       </Script>
     <div id="splash-screen">
