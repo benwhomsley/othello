@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: 'Oswald', sans-serif;
+	font-family: var(--font-oswald);
 }
 
 h1 {
@@ -343,7 +343,7 @@ button {
     color: #fff;
     background-color: #031c25;
     font-size: 18px;
-    font-family: 'Oswald';
+    font-family: var(--font-oswald);
     text-transform: uppercase;
     font-weight: 400;
     margin-top: 10px;
